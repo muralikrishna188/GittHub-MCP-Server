@@ -21,20 +21,7 @@ Open Claude Desktop and sign in.
 Navigate to Settings > API/Integrations.
 config.json
 
-{
-  "mcpServers": {
-    "github": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-github"
-      ],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-      }
-    }
-  }
-}
+
 
 5.Create a Github Account
 Create a GitHub account: https://github.com/signup
